@@ -23,19 +23,6 @@ A modern, type-safe Role-Based Access Control (RBAC) engine and dashboard. Built
 
     Icons: Optimized inline SVGs for zero-latency rendering
 
-🛠 Project Structure
-Plaintext
-
-├── src/
-│ ├── core/ # Access logic (can() function) and Policy definitions
-│ ├── types/ # String Enums for Permissions and Resources
-│ ├── data/ # Mock users and system state
-│ ├── utils/ # Logger and helper functions
-│ └── index.ts # Main entry point (Logic + UI Bridge)
-├── dist/ # Compiled JavaScript
-├── index.html # Dashboard Shell
-└── style.css # Premium UI Styles
-
 ⚙️ How to Run
 
 1. Installation
