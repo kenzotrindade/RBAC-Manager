@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2024",
+    "noEmitOnError": true,
+    "strict": true,
+    "rootDir": "src"
+  },
+  "include": ["src/**/*.ts"]
+}
