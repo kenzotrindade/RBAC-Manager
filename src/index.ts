@@ -8,8 +8,6 @@ const state = {
   activeUser: basicAdmin,
 };
 
-// ... imports existants ...
-
 function render() {
   const userList = document.getElementById("user-list")!;
   const grid = document.getElementById("matrix-grid")!;
