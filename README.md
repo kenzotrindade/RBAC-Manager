@@ -1,58 +1,65 @@
-RBAC Manager
+<div align="center">
 
-A modern, type-safe Role-Based Access Control (RBAC) engine and dashboard. Built with TypeScript, this project demonstrates a robust permission management system with a high-end, 2026-inspired minimalist interface.
-✨ Key Features
+# 🛡️ RBAC Manager
 
-    Type-Safe Engine: Built with TypeScript Enums and strictly typed User interfaces.
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Security](https://img.shields.io/badge/Focus-Security-red?style=for-the-badge)
+![School](https://img.shields.io/badge/School-Coda-blue?style=for-the-badge)
 
-    Dynamic Policy: Centralized security policy allowing for instant permission updates.
+<p>
+  <strong>A modern, type-safe Role-Based Access Control engine.</strong><br>
+  Implementing robust security patterns and dynamic permission management.
+</p>
 
-    Modern Dashboard: A premium, "Apple-esque" UI with smooth transitions and a clean aesthetic.
+</div>
 
-    Hybrid Dark Mode: Persistent theme switching using CSS variables and LocalStorage.
+---
 
-    Real-time Simulation: Hot-swapping users to visualize permission shifts across the system matrix.
+## 📋 About The Project
 
-🚀 Technical Stack
+This repository hosts **RBAC-Manager**, a professional-grade access control system developed as part of the **Coda** curriculum. The project focuses on the implementation of the "Role-Based Access Control" (RBAC) model, ensuring that users only have access to resources necessary for their specific roles.
 
-    Logic: TypeScript (Strict Mode)
+The application features a centralized security policy and a modern dashboard to visualize and simulate permission shifts in real-time.
 
-    Styling: Modern CSS (Variables, Backdrop-filters, Grid/Flexbox)
+> **Specific Goal:** Building a highly secure and scalable permission engine with a focus on "Deny by Default" principles and strict type safety.
 
-    Build: Node.js & ts-node for backend testing
+---
 
-    Icons: Optimized inline SVGs for zero-latency rendering
+## ⚙️ Key Concepts Mastered
 
-⚙️ How to Run
+Designing a security-first application requires a deep understanding of architectural patterns. This project demonstrates my mastery of:
 
-1. Installation
+* **🔐 RBAC Architecture:** Implementing a system where permissions are assigned to roles, and roles are assigned to users.
+* **🛡️ Type-Safe Permissions:** Using TypeScript Enums and strict interfaces to eliminate invalid permission checks at compile-time.
+* **🎨 Modern UI/UX:** Crafting a premium dashboard with CSS variables, backdrop-filters, and a hybrid dark mode.
+* **🔄 Real-time Simulation:** Developing logic to hot-swap user roles and instantly visualize changes in the permission matrix.
 
-Clone the repo and install dependencies:
-Bash
+---
 
-npm install
+## 🛠️ Tech Stack
 
-2. Run Backend Tests
+| Tool | Usage |
+| :--- | :--- |
+| **TypeScript** | Core logic, Enums, and strict type definitions. |
+| **CSS (Modern)** | Advanced styling with Flexbox, Grid, and Variables. |
+| **Node.js / ts-node** | Environment for backend logic and automated testing. |
+| **ES Modules** | Modern modular structure for both browser and server. |
 
-To test the RBAC logic directly in your terminal:
-Bash
+---
 
-npx ts-node src/index.ts
+## 🚀 How to Run
 
-3. Run the Dashboard
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/kenzotrindade/RBAC-Manager.git](https://github.com/kenzotrindade/RBAC-Manager.git)
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the logic tests:
+   ```bash
+   npx ts-node src/index.ts
+4. Launch the dashboard:
+   ```bash
+   Use a local server (like Live Server in VS Code) to open index.html.
 
-Since this project uses ES Modules, serve it via a local web server (like VS Code Live Server) to avoid CORS issues:
-
-    Open index.html.
-
-    Click Go Live or run npx serve ..
-
-🛡 Security Logic
-
-The system operates on a "Deny by Default" principle. Access is granted only if:
-
-    The user's role exists in the policy.
-
-    The specific resource is defined for that role.
-
-    The requested permission is included in the resource's permission array.
+    Or run: npx serve .
