@@ -4,7 +4,6 @@
 
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Security](https://img.shields.io/badge/Focus-Security-red?style=for-the-badge)
-![School](https://img.shields.io/badge/School-Coda-blue?style=for-the-badge)
 
 <p>
   <strong>A modern, type-safe Role-Based Access Control engine.</strong><br>
@@ -51,7 +50,7 @@ Designing a security-first application requires a deep understanding of architec
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kenzotrindade/RBAC-Manager.git](https://github.com/kenzotrindade/RBAC-Manager.git)
+   git clone https://github.com/kenzotrindade/RBAC-Manager.git
 2. Install dependencies:
    ```bash
    npm install
@@ -61,5 +60,3 @@ Designing a security-first application requires a deep understanding of architec
 4. Launch the dashboard:
    ```bash
    Use a local server (like Live Server in VS Code) to open index.html.
-
-    Or run: npx serve .
